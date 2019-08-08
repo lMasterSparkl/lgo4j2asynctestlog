@@ -1,0 +1,333 @@
+D:\Develop\Java\bin\java.exe -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:D:\intellij\IntelliJ IDEA 2018.3.2\lib\idea_rt.jar=2314:D:\intellij\IntelliJ IDEA 2018.3.2\bin" -Dfile.encoding=UTF-8 -classpath "D:\intellij\IntelliJ IDEA 2018.3.2\lib\idea_rt.jar;D:\intellij\IntelliJ IDEA 2018.3.2\plugins\junit\lib\junit-rt.jar;D:\intellij\IntelliJ IDEA 2018.3.2\plugins\junit\lib\junit5-rt.jar;D:\Develop\Java\jre\lib\charsets.jar;D:\Develop\Java\jre\lib\deploy.jar;D:\Develop\Java\jre\lib\ext\access-bridge-64.jar;D:\Develop\Java\jre\lib\ext\cldrdata.jar;D:\Develop\Java\jre\lib\ext\dnsns.jar;D:\Develop\Java\jre\lib\ext\jaccess.jar;D:\Develop\Java\jre\lib\ext\jfxrt.jar;D:\Develop\Java\jre\lib\ext\localedata.jar;D:\Develop\Java\jre\lib\ext\nashorn.jar;D:\Develop\Java\jre\lib\ext\sunec.jar;D:\Develop\Java\jre\lib\ext\sunjce_provider.jar;D:\Develop\Java\jre\lib\ext\sunmscapi.jar;D:\Develop\Java\jre\lib\ext\sunpkcs11.jar;D:\Develop\Java\jre\lib\ext\zipfs.jar;D:\Develop\Java\jre\lib\javaws.jar;D:\Develop\Java\jre\lib\jce.jar;D:\Develop\Java\jre\lib\jfr.jar;D:\Develop\Java\jre\lib\jfxswt.jar;D:\Develop\Java\jre\lib\jsse.jar;D:\Develop\Java\jre\lib\management-agent.jar;D:\Develop\Java\jre\lib\plugin.jar;D:\Develop\Java\jre\lib\resources.jar;D:\Develop\Java\jre\lib\rt.jar;D:\code\spring\logservices\log4j2Ansysdemo\target\test-classes;D:\code\spring\logservices\log4j2Ansysdemo\target\classes;D:\Develop\repository\org\springframework\boot\spring-boot-starter-web\2.1.5.RELEASE\spring-boot-starter-web-2.1.5.RELEASE.jar;D:\Develop\repository\org\springframework\boot\spring-boot-starter\2.1.5.RELEASE\spring-boot-starter-2.1.5.RELEASE.jar;D:\Develop\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.5.RELEASE\spring-boot-autoconfigure-2.1.5.RELEASE.jar;D:\Develop\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;D:\Develop\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;D:\Develop\repository\org\springframework\boot\spring-boot-starter-json\2.1.5.RELEASE\spring-boot-starter-json-2.1.5.RELEASE.jar;D:\Develop\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\Develop\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\Develop\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\Develop\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar;D:\Develop\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar;D:\Develop\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.8\jackson-module-parameter-names-2.9.8.jar;D:\Develop\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.5.RELEASE\spring-boot-starter-tomcat-2.1.5.RELEASE.jar;D:\Develop\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.19\tomcat-embed-core-9.0.19.jar;D:\Develop\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.19\tomcat-embed-el-9.0.19.jar;D:\Develop\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.19\tomcat-embed-websocket-9.0.19.jar;D:\Develop\repository\org\hibernate\validator\hibernate-validator\6.0.16.Final\hibernate-validator-6.0.16.Final.jar;D:\Develop\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;D:\Develop\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;D:\Develop\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;D:\Develop\repository\org\springframework\spring-web\5.1.7.RELEASE\spring-web-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-webmvc\5.1.7.RELEASE\spring-webmvc-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\boot\spring-boot-starter-test\2.1.5.RELEASE\spring-boot-starter-test-2.1.5.RELEASE.jar;D:\Develop\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.5.RELEASE\spring-boot-test-autoconfigure-2.1.5.RELEASE.jar;D:\Develop\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;D:\Develop\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;D:\Develop\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;D:\Develop\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;D:\Develop\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;D:\Develop\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;D:\Develop\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;D:\Develop\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;D:\Develop\repository\net\bytebuddy\byte-buddy-agent\1.9.12\byte-buddy-agent-1.9.12.jar;D:\Develop\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\Develop\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Develop\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;D:\Develop\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;D:\Develop\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\Develop\repository\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;D:\Develop\repository\org\xmlunit\xmlunit-core\2.6.2\xmlunit-core-2.6.2.jar;D:\Develop\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;D:\Develop\repository\junit\junit\4.12\junit-4.12.jar;D:\Develop\repository\org\springframework\boot\spring-boot-test\2.1.5.RELEASE\spring-boot-test-2.1.5.RELEASE.jar;D:\Develop\repository\org\springframework\boot\spring-boot\2.1.5.RELEASE\spring-boot-2.1.5.RELEASE.jar;D:\Develop\repository\org\springframework\spring-test\5.1.8.RELEASE\spring-test-5.1.8.RELEASE.jar;D:\Develop\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;D:\Develop\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.1.1\mybatis-spring-boot-starter-1.1.1.jar;D:\Develop\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.1.1\mybatis-spring-boot-autoconfigure-1.1.1.jar;D:\Develop\repository\org\mybatis\mybatis\3.4.0\mybatis-3.4.0.jar;D:\Develop\repository\org\mybatis\mybatis-spring\1.3.0\mybatis-spring-1.3.0.jar;D:\Develop\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.5.RELEASE\spring-boot-starter-jdbc-2.1.5.RELEASE.jar;D:\Develop\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;D:\Develop\repository\org\springframework\spring-jdbc\5.1.7.RELEASE\spring-jdbc-5.1.7.RELEASE.jar;D:\Develop\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;D:\Develop\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\code\spring\logservices\logUtil\target\classes;D:\Develop\repository\org\springframework\boot\spring-boot-starter-log4j2\2.1.5.RELEASE\spring-boot-starter-log4j2-2.1.5.RELEASE.jar;D:\Develop\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.11.2\log4j-slf4j-impl-2.11.2.jar;D:\Develop\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;D:\Develop\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar;D:\Develop\repository\org\apache\logging\log4j\log4j-jul\2.11.2\log4j-jul-2.11.2.jar;D:\Develop\repository\org\slf4j\jul-to-slf4j\1.7.26\jul-to-slf4j-1.7.26.jar;D:\Develop\repository\org\springframework\kafka\spring-kafka\2.2.6.RELEASE\spring-kafka-2.2.6.RELEASE.jar;D:\Develop\repository\org\springframework\spring-messaging\5.1.7.RELEASE\spring-messaging-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\spring-tx\5.1.7.RELEASE\spring-tx-5.1.7.RELEASE.jar;D:\Develop\repository\org\springframework\retry\spring-retry\1.2.4.RELEASE\spring-retry-1.2.4.RELEASE.jar;D:\Develop\repository\org\apache\kafka\kafka-clients\2.0.1\kafka-clients-2.0.1.jar;D:\Develop\repository\org\lz4\lz4-java\1.4.1\lz4-java-1.4.1.jar;D:\Develop\repository\org\xerial\snappy\snappy-java\1.1.7.1\snappy-java-1.1.7.1.jar;D:\Develop\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar" com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 com.logtest.demo.AnsysdemoApplicationTests,contextLoads
+2019-08-08 11:43:56,877 main DEBUG Loaded configuration from D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml
+2019-08-08 11:43:56,893 main DEBUG Starting LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@2ddc9a9f] with configuration XmlConfiguration[location=D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml]...
+2019-08-08 11:43:56,893 main DEBUG Apache Log4j Core 2.11.2 initializing configuration XmlConfiguration[location=D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml]
+2019-08-08 11:43:56,924 main DEBUG Installed 1 script engine
+2019-08-08 11:43:58,112 main DEBUG Oracle Nashorn version: 1.8.0_111, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2019-08-08 11:43:58,112 main DEBUG PluginManager 'Core' found 118 plugins
+2019-08-08 11:43:58,112 main DEBUG PluginManager 'Level' found 0 plugins
+2019-08-08 11:43:58,174 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:58,190 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2019-08-08 11:43:58,190 main DEBUG createProperty(name="LOG_HOME", value="logs/TESTPROJECT")
+2019-08-08 11:43:58,190 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:58,205 main DEBUG createProperty(name="PATTERN_LAYOUT_CONSOLE", value="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,299 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:58,315 main DEBUG createProperty(name="PATTERN_LAYOUT_CONSOLE_ROOT", value="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n")
+2019-08-08 11:43:58,315 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:58,315 main DEBUG createProperty(name="PATTERN_LAYOUT", value="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,315 main DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2019-08-08 11:43:58,315 main DEBUG configureSubstitutor(={LOG_HOME=logs/TESTPROJECT, PATTERN_LAYOUT_CONSOLE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, PATTERN_LAYOUT_CONSOLE_ROOT=%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n, PATTERN_LAYOUT=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n}, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:58,315 main DEBUG PluginManager 'Lookup' found 13 plugins
+2019-08-08 11:43:58,315 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:58,315 main DEBUG createFilter(level="INFO", onMatch="ACCEPT", onMismatch="DENY")
+2019-08-08 11:43:58,315 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,330 main DEBUG PatternMatch$Builder(, key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,330 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,330 main DEBUG PatternMatch$Builder(, key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,330 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,330 main DEBUG PatternMatch$Builder(, key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,330 main DEBUG Building Plugin[name=patternSelector, class=org.apache.logging.log4j.core.layout.MarkerPatternSelector].
+2019-08-08 11:43:58,330 main DEBUG MarkerPatternSelector$Builder(={UTIL=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, TRACE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, MESSAGE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n}, defaultPattern="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:58,346 main DEBUG PluginManager 'Converter' found 47 plugins
+2019-08-08 11:43:58,393 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:58,409 main DEBUG PatternLayout$Builder(pattern="null", MarkerPatternSelector(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:58,409 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2019-08-08 11:43:58,409 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), name="Console", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), ThresholdFilter(INFO), ={})
+2019-08-08 11:43:58,409 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2019-08-08 11:43:58,409 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:58,409 main DEBUG createFilter(level="WARN", onMatch="DENY", onMismatch="NEUTRAL")
+2019-08-08 11:43:58,424 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:58,424 main DEBUG createFilter(level="INFO", onMatch="null", onMismatch="null")
+2019-08-08 11:43:58,424 main DEBUG Building Plugin[name=filters, class=org.apache.logging.log4j.core.filter.CompositeFilter].
+2019-08-08 11:43:58,455 main DEBUG createFilters(={WARN, INFO})
+2019-08-08 11:43:58,455 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,455 main DEBUG PatternMatch$Builder(, key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,455 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,455 main DEBUG PatternMatch$Builder(, key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,455 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,455 main DEBUG PatternMatch$Builder(, key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,455 main DEBUG Building Plugin[name=patternSelector, class=org.apache.logging.log4j.core.layout.MarkerPatternSelector].
+2019-08-08 11:43:58,455 main DEBUG MarkerPatternSelector$Builder(={UTIL=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, TRACE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, MESSAGE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n}, defaultPattern="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:58,471 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:58,471 main DEBUG PatternLayout$Builder(pattern="null", MarkerPatternSelector(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:58,471 main DEBUG Building Plugin[name=CronTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy].
+2019-08-08 11:43:58,471 main DEBUG createPolicy(Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), evaluateOnStartup="null", schedule="0 0 0/12 * * ?")
+2019-08-08 11:43:58,518 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2019-08-08 11:43:58,518 main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2019-08-08 11:43:58,534 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2019-08-08 11:43:58,534 main DEBUG createPolicy(size="100 MB")
+2019-08-08 11:43:58,534 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2019-08-08 11:43:58,534 main DEBUG createPolicy(={CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)})
+2019-08-08 11:43:58,534 main DEBUG Building Plugin[name=IfAccumulatedFileSize, class=org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize].
+2019-08-08 11:43:58,534 main DEBUG createFileSizeCondition(exceeds="50GB", ={})
+2019-08-08 11:43:58,534 main DEBUG Building Plugin[name=IfAccumulatedFileCount, class=org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount].
+2019-08-08 11:43:58,534 main DEBUG createFileCountCondition(exceeds="1000", ={})
+2019-08-08 11:43:58,534 main DEBUG Building Plugin[name=IfAny, class=org.apache.logging.log4j.core.appender.rolling.action.IfAny].
+2019-08-08 11:43:58,643 main DEBUG createOrCondition(={IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)})
+2019-08-08 11:43:58,643 main DEBUG Building Plugin[name=IfLastModified, class=org.apache.logging.log4j.core.appender.rolling.action.IfLastModified].
+2019-08-08 11:43:58,643 main DEBUG createAgeCondition(age="P180D", ={IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]})
+2019-08-08 11:43:58,643 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2019-08-08 11:43:58,643 main DEBUG Building Plugin[name=IfFileName, class=org.apache.logging.log4j.core.appender.rolling.action.IfFileName].
+2019-08-08 11:43:58,737 main DEBUG createNameCondition(glob="*/*/info/info-*.log.gz", regex="null", ={IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])})
+2019-08-08 11:43:58,737 main DEBUG Building Plugin[name=Delete, class=org.apache.logging.log4j.core.appender.rolling.action.DeleteAction].
+2019-08-08 11:43:58,737 main DEBUG createDeleteAction(basePath="logs/TESTPROJECT", followLinks="false", maxDepth="5", testMode="true", PathSorter=null, ={IfFileName(glob:*/*/info/info-*.log.gz AND [IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])])}, ScriptCondition=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:58,737 main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2019-08-08 11:43:58,752 main DEBUG DefaultRolloverStrategy$Builder(max="50", min="null", fileIndex="null", compressionLevel="null", ={DeleteAction[basePath=logs\TESTPROJECT, options=[], maxDepth=5, conditions=[IfFileName(glob:*/*/info/info-*.log.gz AND [IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])])]]}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:58,752 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender].
+2019-08-08 11:43:58,752 main DEBUG RollingRandomAccessFileAppender$Builder(fileName="logs/TESTPROJECT/info.log", filePattern="logs/TESTPROJECT/${date:yyyy-MM}/${date:yyyy-MM-dd}/info/info-%d{yyyy-MM-dd}-%i.log.gz", append="true", Policies(CompositeTriggeringPolicy(policies=[CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=50, useMax=true)), advertise="null", advertiseURI="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="true", bufferSize="4096", immediateFlush="false", ignoreExceptions="null", PatternLayout(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), name="RollingRandomAccessFileInfo", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filters({WARN, INFO}), ={})
+2019-08-08 11:43:58,768 main DEBUG Starting RollingRandomAccessFileManager logs/TESTPROJECT/info.log
+2019-08-08 11:43:58,768 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2019-08-08 11:43:58,784 main DEBUG Setting prev file time to 2019-08-08T11:38:03.735+0800
+2019-08-08 11:43:58,784 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])
+2019-08-08 11:43:58,784 main DEBUG Initializing triggering policy CronTriggeringPolicy(schedule=0 0 0/12 * * ?)
+2019-08-08 11:43:58,862 main DEBUG LastRollForFile 2019-08-08T00:00:00.000+0800, LastRegularRole 2019-08-08T00:00:00.000+0800
+2019-08-08 11:43:58,862 main DEBUG Setting prev file time to 2019-08-08T00:00:00.000+0800
+2019-08-08 11:43:58,862 main DEBUG Log4j2 ConfigurationScheduler starting 5 threads
+2019-08-08 11:43:58,893 main DEBUG Log4j2 ConfigurationScheduler scheduled cron expression 0 0 0/12 * * ? to fire at 2019-08-08T12:00:00.000+0800
+2019-08-08 11:43:58,893 main DEBUG ConfigurationScheduler [name=Log4j2 ConfigurationScheduler, [java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@34997338]
+2019-08-08 11:43:58,893 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2019-08-08 11:43:58,893 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=104857600)
+2019-08-08 11:43:58,909 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:58,909 main DEBUG createFilter(level="WARN", onMatch="null", onMismatch="null")
+2019-08-08 11:43:58,909 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:58,909 main DEBUG createFilter(level="ERROR", onMatch="DENY", onMismatch="NEUTRAL")
+2019-08-08 11:43:58,909 main DEBUG Building Plugin[name=filters, class=org.apache.logging.log4j.core.filter.CompositeFilter].
+2019-08-08 11:43:58,909 main DEBUG createFilters(={WARN, ERROR})
+2019-08-08 11:43:58,924 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,940 main DEBUG PatternMatch$Builder(, key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,940 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,940 main DEBUG PatternMatch$Builder(, key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,955 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:58,955 main DEBUG PatternMatch$Builder(, key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:58,955 main DEBUG Building Plugin[name=patternSelector, class=org.apache.logging.log4j.core.layout.MarkerPatternSelector].
+2019-08-08 11:43:58,955 main DEBUG MarkerPatternSelector$Builder(={UTIL=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, TRACE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, MESSAGE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n}, defaultPattern="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:58,971 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:58,987 main DEBUG PatternLayout$Builder(pattern="null", MarkerPatternSelector(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=CronTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy].
+2019-08-08 11:43:58,987 main DEBUG createPolicy(Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), evaluateOnStartup="null", schedule="0 0 0/12 * * ?")
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2019-08-08 11:43:58,987 main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2019-08-08 11:43:58,987 main DEBUG createPolicy(size="100 MB")
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2019-08-08 11:43:58,987 main DEBUG createPolicy(={CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)})
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=IfAccumulatedFileSize, class=org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize].
+2019-08-08 11:43:58,987 main DEBUG createFileSizeCondition(exceeds="50GB", ={})
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=IfAccumulatedFileCount, class=org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount].
+2019-08-08 11:43:58,987 main DEBUG createFileCountCondition(exceeds="1000", ={})
+2019-08-08 11:43:58,987 main DEBUG Building Plugin[name=IfAny, class=org.apache.logging.log4j.core.appender.rolling.action.IfAny].
+2019-08-08 11:43:58,987 main DEBUG createOrCondition(={IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)})
+2019-08-08 11:43:59,002 main DEBUG Building Plugin[name=IfLastModified, class=org.apache.logging.log4j.core.appender.rolling.action.IfLastModified].
+2019-08-08 11:43:59,002 main DEBUG createAgeCondition(age="P180D", ={IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]})
+2019-08-08 11:43:59,002 main DEBUG Building Plugin[name=IfFileName, class=org.apache.logging.log4j.core.appender.rolling.action.IfFileName].
+2019-08-08 11:43:59,002 main DEBUG createNameCondition(glob="*/*/warn/warn*.log.gz", regex="null", ={IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])})
+2019-08-08 11:43:59,002 main DEBUG Building Plugin[name=Delete, class=org.apache.logging.log4j.core.appender.rolling.action.DeleteAction].
+2019-08-08 11:43:59,065 main DEBUG createDeleteAction(basePath="logs/TESTPROJECT", followLinks="false", maxDepth="5", testMode="true", PathSorter=null, ={IfFileName(glob:*/*/warn/warn*.log.gz AND [IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])])}, ScriptCondition=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2019-08-08 11:43:59,080 main DEBUG DefaultRolloverStrategy$Builder(max="50", min="null", fileIndex="null", compressionLevel="null", ={DeleteAction[basePath=logs\TESTPROJECT, options=[], maxDepth=5, conditions=[IfFileName(glob:*/*/warn/warn*.log.gz AND [IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])])]]}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender].
+2019-08-08 11:43:59,080 main DEBUG RollingRandomAccessFileAppender$Builder(fileName="logs/TESTPROJECT/warn.log", filePattern="logs/TESTPROJECT/${date:yyyy-MM}/${date:yyyy-MM-dd}/warn/warn-%d{yyyy-MM-dd}-%i.log.gz", append="true", Policies(CompositeTriggeringPolicy(policies=[CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=50, useMax=true)), advertise="null", advertiseURI="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="true", bufferSize="4096", immediateFlush="false", ignoreExceptions="null", PatternLayout(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), name="RollingRandomAccessFileWarn", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filters({WARN, ERROR}), ={})
+2019-08-08 11:43:59,080 main DEBUG Starting RollingRandomAccessFileManager logs/TESTPROJECT/warn.log
+2019-08-08 11:43:59,080 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2019-08-08 11:43:59,080 main DEBUG Setting prev file time to 2019-08-06T18:11:08.465+0800
+2019-08-08 11:43:59,080 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])
+2019-08-08 11:43:59,080 main DEBUG Initializing triggering policy CronTriggeringPolicy(schedule=0 0 0/12 * * ?)
+2019-08-08 11:43:59,080 main DEBUG LastRollForFile 2019-08-06T12:00:00.000+0800, LastRegularRole 2019-08-08T00:00:00.000+0800
+2019-08-08 11:43:59,080 main DEBUG Setting prev file time to 2019-08-08T00:00:00.000+0800
+2019-08-08 11:43:59,080 main DEBUG Log4j2 ConfigurationScheduler scheduled cron expression 0 0 0/12 * * ? to fire at 2019-08-08T12:00:00.000+0800
+2019-08-08 11:43:59,080 main DEBUG ConfigurationScheduler [name=Log4j2 ConfigurationScheduler, [java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@53d1b9b3, java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@34997338]
+2019-08-08 11:43:59,080 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2019-08-08 11:43:59,080 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=104857600)
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:59,080 main DEBUG createFilter(level="ERROR", onMatch="null", onMismatch="null")
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:59,080 main DEBUG PatternMatch$Builder(, key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:59,080 main DEBUG PatternMatch$Builder(, key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=PatternMatch, class=org.apache.logging.log4j.core.layout.PatternMatch].
+2019-08-08 11:43:59,080 main DEBUG PatternMatch$Builder(, key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n")
+2019-08-08 11:43:59,080 main DEBUG Building Plugin[name=patternSelector, class=org.apache.logging.log4j.core.layout.MarkerPatternSelector].
+2019-08-08 11:43:59,080 main DEBUG MarkerPatternSelector$Builder(={UTIL=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, TRACE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n, MESSAGE=%d{DEFAULT} [%t] %-5level --- %msg %xEx%n}, defaultPattern="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:59,096 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:59,096 main DEBUG PatternLayout$Builder(pattern="null", MarkerPatternSelector(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:59,096 main DEBUG Building Plugin[name=CronTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy].
+2019-08-08 11:43:59,096 main DEBUG createPolicy(Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), evaluateOnStartup="null", schedule="0 0 0/12 * * ?")
+2019-08-08 11:43:59,096 main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2019-08-08 11:43:59,096 main DEBUG TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+2019-08-08 11:43:59,096 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2019-08-08 11:43:59,096 main DEBUG createPolicy(size="100 MB")
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2019-08-08 11:43:59,112 main DEBUG createPolicy(={CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)})
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=IfAccumulatedFileSize, class=org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize].
+2019-08-08 11:43:59,112 main DEBUG createFileSizeCondition(exceeds="50GB", ={})
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=IfAccumulatedFileCount, class=org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount].
+2019-08-08 11:43:59,112 main DEBUG createFileCountCondition(exceeds="1000", ={})
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=IfAny, class=org.apache.logging.log4j.core.appender.rolling.action.IfAny].
+2019-08-08 11:43:59,112 main DEBUG createOrCondition(={IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)})
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=IfLastModified, class=org.apache.logging.log4j.core.appender.rolling.action.IfLastModified].
+2019-08-08 11:43:59,112 main DEBUG createAgeCondition(age="P180D", ={IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]})
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=IfFileName, class=org.apache.logging.log4j.core.appender.rolling.action.IfFileName].
+2019-08-08 11:43:59,112 main DEBUG createNameCondition(glob="*/*/error/error*.log.gz", regex="null", ={IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])})
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=Delete, class=org.apache.logging.log4j.core.appender.rolling.action.DeleteAction].
+2019-08-08 11:43:59,112 main DEBUG createDeleteAction(basePath="logs/TESTPROJECT", followLinks="false", maxDepth="5", testMode="true", PathSorter=null, ={IfFileName(glob:*/*/error/error*.log.gz AND [IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])])}, ScriptCondition=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:59,112 main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2019-08-08 11:43:59,112 main DEBUG DefaultRolloverStrategy$Builder(max="50", min="null", fileIndex="null", compressionLevel="null", ={DeleteAction[basePath=logs\TESTPROJECT, options=[], maxDepth=5, conditions=[IfFileName(glob:*/*/error/error*.log.gz AND [IfLastModified(age=P180D AND [IfAny[IfAccumulatedFileSize(exceeds=53687091200), IfAccumulatedFileCount(exceeds=1000)]])])]]}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml))
+2019-08-08 11:43:59,143 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender].
+2019-08-08 11:43:59,143 main DEBUG RollingRandomAccessFileAppender$Builder(fileName="logs/TESTPROJECT/error.log", filePattern="logs/TESTPROJECT/${date:yyyy-MM}/${date:yyyy-MM-dd}/error/error-%d{yyyy-MM-dd}-%i.log.gz", append="true", Policies(CompositeTriggeringPolicy(policies=[CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=50, useMax=true)), advertise="null", advertiseURI="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(key="TRACE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="MESSAGE", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", key="UTIL", pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", default="%d{DEFAULT} [%t] %-5level --- Class: %C Method: %M File: %F Line:
+            %L --- %msg %xEx%n"), name="RollingRandomAccessFileError", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), ThresholdFilter(ERROR), ={})
+2019-08-08 11:43:59,143 main DEBUG Starting RollingRandomAccessFileManager logs/TESTPROJECT/error.log
+2019-08-08 11:43:59,143 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2019-08-08 11:43:59,143 main DEBUG Setting prev file time to 2019-08-08T11:38:03.735+0800
+2019-08-08 11:43:59,143 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[CronTriggeringPolicy(schedule=0 0 0/12 * * ?), TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=104857600)])
+2019-08-08 11:43:59,143 main DEBUG Initializing triggering policy CronTriggeringPolicy(schedule=0 0 0/12 * * ?)
+2019-08-08 11:43:59,143 main DEBUG LastRollForFile 2019-08-08T00:00:00.000+0800, LastRegularRole 2019-08-08T00:00:00.000+0800
+2019-08-08 11:43:59,143 main DEBUG Setting prev file time to 2019-08-08T00:00:00.000+0800
+2019-08-08 11:43:59,143 main DEBUG Log4j2 ConfigurationScheduler scheduled cron expression 0 0 0/12 * * ? to fire at 2019-08-08T12:00:00.000+0800
+2019-08-08 11:43:59,143 main DEBUG ConfigurationScheduler [name=Log4j2 ConfigurationScheduler, [java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@53d1b9b3, java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@34997338, java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@4febb875]
+2019-08-08 11:43:59,143 main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2019-08-08 11:43:59,143 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=104857600)
+2019-08-08 11:43:59,143 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2019-08-08 11:43:59,159 main DEBUG createFilter(marker="MESSAGE", onMatch="ACCEPT", onMismatch="DENY")
+2019-08-08 11:43:59,159 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:59,159 main DEBUG PatternLayout$Builder(pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", PatternSelector=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:59,159 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:59,159 main DEBUG createFilter(level="ERROR", onMatch="null", onMismatch="null")
+2019-08-08 11:43:59,159 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:59,159 main DEBUG createProperty(name="bootstrap.servers", value="192.100.2.44:9092,192.100.2.45:9092")
+2019-08-08 11:43:59,159 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:59,159 main DEBUG createProperty(name="timeout.ms", value="3000")
+2019-08-08 11:43:59,159 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:59,159 main DEBUG createProperty(name="max.block.ms", value="2000")
+2019-08-08 11:43:59,159 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.mom.kafka.KafkaAppender].
+2019-08-08 11:43:59,174 main DEBUG KafkaAppender$Builder(topic="yi-test", key="null", syncSend="false", ignoreExceptions="false", PatternLayout(%d{DEFAULT} [%t] %-5level --- %msg %xEx%n), name="KafkaSync", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), MarkerFilter(MESSAGE), ={bootstrap.servers=192.100.2.44:9092,192.100.2.45:9092, timeout.ms=3000, max.block.ms=2000})
+2019-08-08 11:43:59,174 main ERROR appender Kafka has no parameter that matches element ThresholdFilter
+2019-08-08 11:43:59,190 main DEBUG Starting KafkaManager KafkaSync
+2019-08-08 11:43:59,190 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2019-08-08 11:43:59,190 main DEBUG createFilter(marker="TRACE", onMatch="ACCEPT", onMismatch="DENY")
+2019-08-08 11:43:59,190 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:59,190 main DEBUG PatternLayout$Builder(pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", PatternSelector=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:59,190 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2019-08-08 11:43:59,190 main DEBUG createFilter(level="ERROR", onMatch="null", onMismatch="null")
+2019-08-08 11:43:59,190 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:59,205 main DEBUG createProperty(name="bootstrap.servers", value="192.100.2.44:9092,192.100.2.45:9092")
+2019-08-08 11:43:59,205 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:59,237 main DEBUG createProperty(name="timeout.ms", value="3000")
+2019-08-08 11:43:59,237 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2019-08-08 11:43:59,237 main DEBUG createProperty(name="max.block.ms", value="2000")
+2019-08-08 11:43:59,237 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.mom.kafka.KafkaAppender].
+2019-08-08 11:43:59,237 main DEBUG KafkaAppender$Builder(topic="yi-test2", key="null", syncSend="false", ignoreExceptions="false", PatternLayout(%d{DEFAULT} [%t] %-5level --- %msg %xEx%n), name="KafkaTrace", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), MarkerFilter(TRACE), ={bootstrap.servers=192.100.2.44:9092,192.100.2.45:9092, timeout.ms=3000, max.block.ms=2000})
+2019-08-08 11:43:59,237 main ERROR appender Kafka has no parameter that matches element ThresholdFilter
+2019-08-08 11:43:59,237 main DEBUG Starting KafkaManager KafkaTrace
+2019-08-08 11:43:59,237 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2019-08-08 11:43:59,252 main DEBUG createFilter(marker="MESSAGE", onMatch="ACCEPT", onMismatch="DENY")
+2019-08-08 11:43:59,252 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:59,252 main DEBUG PatternLayout$Builder(pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", PatternSelector=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:59,252 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2019-08-08 11:43:59,252 main DEBUG FileAppender$Builder(fileName="logs/TESTPROJECT/failover.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="false", PatternLayout(%d{DEFAULT} [%t] %-5level --- %msg %xEx%n), name="failoverKafkaLog", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), MarkerFilter(MESSAGE), ={})
+2019-08-08 11:43:59,252 main DEBUG Starting FileManager logs/TESTPROJECT/failover.log
+2019-08-08 11:43:59,252 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2019-08-08 11:43:59,252 main DEBUG createFilter(marker="TRACE", onMatch="ACCEPT", onMismatch="DENY")
+2019-08-08 11:43:59,252 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2019-08-08 11:43:59,252 main DEBUG PatternLayout$Builder(pattern="%d{DEFAULT} [%t] %-5level --- %msg %xEx%n", PatternSelector=null, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Replace=null, charset="UTF-8", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2019-08-08 11:43:59,252 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2019-08-08 11:43:59,252 main DEBUG FileAppender$Builder(fileName="logs/TESTPROJECT/failoverTrace.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="false", PatternLayout(%d{DEFAULT} [%t] %-5level --- %msg %xEx%n), name="failoverKafkaTraceLog", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), MarkerFilter(TRACE), ={})
+2019-08-08 11:43:59,268 main DEBUG Starting FileManager logs/TESTPROJECT/failoverTrace.log
+2019-08-08 11:43:59,268 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,268 main DEBUG createAppenderRef(ref="failoverKafkaLog", level="null", Filter=null)
+2019-08-08 11:43:59,268 main DEBUG Building Plugin[name=failovers, class=org.apache.logging.log4j.core.appender.FailoversPlugin].
+2019-08-08 11:43:59,268 main DEBUG createFailovers(={failoverKafkaLog})
+2019-08-08 11:43:59,268 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FailoverAppender].
+2019-08-08 11:43:59,315 main ERROR appender Failover has no parameter that matches element Failovers
+2019-08-08 11:43:59,315 main DEBUG createAppender(name="Failover", primary="KafkaSync", ={[failoverKafkaLog]}, retryIntervalSeconds="15", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filter=null, ignoreExceptions="null")
+2019-08-08 11:43:59,315 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,315 main DEBUG createAppenderRef(ref="failoverKafkaTraceLog", level="null", Filter=null)
+2019-08-08 11:43:59,315 main DEBUG Building Plugin[name=failovers, class=org.apache.logging.log4j.core.appender.FailoversPlugin].
+2019-08-08 11:43:59,315 main DEBUG createFailovers(={failoverKafkaTraceLog})
+2019-08-08 11:43:59,315 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FailoverAppender].
+2019-08-08 11:43:59,315 main ERROR appender Failover has no parameter that matches element Failovers
+2019-08-08 11:43:59,315 main DEBUG createAppender(name="FailoverTrace", primary="KafkaTrace", ={[failoverKafkaTraceLog]}, retryIntervalSeconds="15", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filter=null, ignoreExceptions="null")
+2019-08-08 11:43:59,315 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,315 main DEBUG createAppenderRef(ref="Failover", level="null", Filter=null)
+2019-08-08 11:43:59,315 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,315 main DEBUG createAppenderRef(ref="FailoverTrace", level="null", Filter=null)
+2019-08-08 11:43:59,315 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.AsyncAppender].
+2019-08-08 11:43:59,330 main DEBUG AsyncAppender$Builder(={Failover, FailoverTrace}, errorRef="null", blocking="null", shutdownTimeout="null", bufferSize="null", name="AsyncKafka", includeLocation="null", Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), ignoreExceptions="null", BlockingQueueFactory=null, Filter=null, ={})
+2019-08-08 11:43:59,440 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2019-08-08 11:43:59,440 main DEBUG createAppenders(={Console, RollingRandomAccessFileInfo, RollingRandomAccessFileWarn, RollingRandomAccessFileError, KafkaAppender{name=KafkaSync, state=INITIALIZED, topic=yi-test}, KafkaAppender{name=KafkaTrace, state=INITIALIZED, topic=yi-test2}, failoverKafkaLog, failoverKafkaTraceLog, Failover primary=null, failover={failoverKafkaLog}, FailoverTrace primary=null, failover={failoverKafkaTraceLog}, AsyncKafka})
+2019-08-08 11:43:59,440 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,440 main DEBUG createAppenderRef(ref="AsyncKafka", level="null", Filter=null)
+2019-08-08 11:43:59,440 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,440 main DEBUG createAppenderRef(ref="RollingRandomAccessFileInfo", level="null", Filter=null)
+2019-08-08 11:43:59,440 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,534 main DEBUG createAppenderRef(ref="RollingRandomAccessFileWarn", level="null", Filter=null)
+2019-08-08 11:43:59,643 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,643 main DEBUG createAppenderRef(ref="RollingRandomAccessFileError", level="null", Filter=null)
+2019-08-08 11:43:59,643 main DEBUG Building Plugin[name=asyncLogger, class=org.apache.logging.log4j.core.async.AsyncLoggerConfig].
+2019-08-08 11:43:59,643 main DEBUG createLogger(additivity="false", level="DEBUG", name="com.logtest.demo", includeLocation="true", ={AsyncKafka, RollingRandomAccessFileInfo, RollingRandomAccessFileWarn, RollingRandomAccessFileError}, ={}, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filter=null)
+2019-08-08 11:43:59,659 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2019-08-08 11:43:59,659 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2019-08-08 11:43:59,659 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2019-08-08 11:43:59,659 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="true", ={Console}, ={}, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filter=null)
+2019-08-08 11:43:59,659 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2019-08-08 11:43:59,659 main DEBUG createLogger(additivity="true", level="INFO", name="org.apache.kafka", includeLocation="null", ={}, ={}, Configuration(D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml), Filter=null)
+2019-08-08 11:43:59,674 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2019-08-08 11:43:59,674 main DEBUG createLoggers(={com.logtest.demo, root, org.apache.kafka})
+2019-08-08 11:43:59,674 main DEBUG Configuration XmlConfiguration[location=D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml] initialized
+2019-08-08 11:43:59,674 main DEBUG Starting configuration XmlConfiguration[location=D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml]
+2019-08-08 11:44:00,174 main DEBUG Starting AsyncLoggerConfig disruptor for this configuration with ringbufferSize=262144, waitStrategy=TimeoutBlockingWaitStrategy, exceptionHandler=org.apache.logging.log4j.core.async.AsyncLoggerConfigDefaultExceptionHandler@71b3bc45...
+2019-08-08 11:44:01,205 main DEBUG Started configuration XmlConfiguration[location=D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml] OK.
+2019-08-08 11:44:01,205 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-2
+2019-08-08 11:44:01,205 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-2, all resources released: true
+2019-08-08 11:44:01,205 main DEBUG Appender DefaultConsole-2 stopped with status true
+2019-08-08 11:44:01,205 main DEBUG Stopped org.springframework.boot.logging.log4j2.SpringBootConfigurationFactory$SpringBootConfiguration@44f75083 OK
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=StatusLogger
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=ContextSelector
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=com.logtest.demo
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=com.logtest.demo,subtype=RingBuffer
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Loggers,name=org.apache.kafka
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=KafkaTrace
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=FailoverTrace
+2019-08-08 11:44:01,205 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=RollingRandomAccessFileInfo
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=failoverKafkaLog
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=KafkaSync
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=Failover
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=RollingRandomAccessFileWarn
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=RollingRandomAccessFileError
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=AsyncAppenders,name=AsyncKafka
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=Console
+2019-08-08 11:44:01,221 main DEBUG Registering MBean org.apache.logging.log4j2:type=18b4aac2,component=Appenders,name=failoverKafkaTraceLog
+2019-08-08 11:44:01,221 main DEBUG LoggerContext[name=18b4aac2, org.apache.logging.log4j.core.LoggerContext@2ddc9a9f] started OK with configuration XmlConfiguration[location=D:\code\spring\logservices\log4j2Ansysdemo\target\classes\log4j2.test.xml].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2019-08-08 11:44:01,315 main DEBUG AsyncLogger.ThreadNameStrategy=UNCACHED (user specified null, default is UNCACHED)
+2019-08-08 11:44:01,315 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2019-08-08 11:44:02,955 [main] INFO  --- Class: org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Method: postProcessAfterInitialization File: PostProcessorRegistrationDelegate.java Line:
+            330 --- Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$268d65de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-08-08 11:44:05,422 [main] INFO  --- Class: org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Method: initialize File: ExecutorConfigurationSupport.java Line:
+            171 --- Initializing ExecutorService 'applicationTaskExecutor' 
+2019-08-08 11:44:17,856 [Thread-2] INFO  --- Class: org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Method: shutdown File: ExecutorConfigurationSupport.java Line:
+            208 --- Shutting down ExecutorService 'applicationTaskExecutor' 
+
+Process finished with exit code 0
